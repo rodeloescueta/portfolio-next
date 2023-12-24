@@ -10,7 +10,10 @@ import { FaGithub, FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
   return (
-    <section>
+    <section
+      id="home"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -22,13 +25,13 @@ export default function Intro() {
             }}
           >
             <Image
-              alt="logo"
-              src="https://agency.betterseller.com/si-logo-pink.png"
+              alt="me"
+              src="/delo.png"
               width="192"
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl bg-gray-400"
             />
           </motion.div>
 

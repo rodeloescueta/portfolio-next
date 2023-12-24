@@ -5,31 +5,45 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import {
+  FaHome,
+  FaInfoCircle,
+  FaCogs,
+  FaStar,
+  FaPhoneSquare,
+} from "react-icons/fa";
+import { RiApps2Fill } from "react-icons/ri";
 
 export const links = [
   {
     name: "Home",
     hash: "#home",
+    icon: FaHome,
   },
   {
     name: "About",
     hash: "#about",
+    icon: FaInfoCircle,
   },
   {
     name: "Projects",
     hash: "#projects",
+    icon: RiApps2Fill,
   },
   {
     name: "Skills",
     hash: "#skills",
+    icon: FaCogs,
   },
   {
     name: "Experience",
     hash: "#experience",
+    icon: FaStar,
   },
   {
     name: "Contact",
     hash: "#contact",
+    icon: FaPhoneSquare,
   },
 ] as const;
 
