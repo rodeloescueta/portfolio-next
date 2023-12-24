@@ -1,14 +1,26 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithub, FaGithubSquare } from "react-icons/fa";
+import { useInView } from "react-intersection-observer";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
+  const { ref, inView } = useInView({
+    threshold: 0.75,
+  });
+  const { setActiveSection } = useActiveSectionContext();
+
+  useEffect(() => {
+    if (inView) {
+      setActiveSection("Home");
+    }
+  }, [inView]);
   return (
     <section
       id="home"
@@ -26,7 +38,7 @@ export default function Intro() {
           >
             <Image
               alt="me"
-              src="/delo.png"
+              src="/logo-orange.png"
               width="192"
               height="192"
               quality="95"
@@ -79,7 +91,7 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          Sales Link{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />{" "}
         </a>
         <a
