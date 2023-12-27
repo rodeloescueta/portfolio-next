@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/si-logo-pink-hd.png"
+              src="/delo.png"
               alt="Ricardo portrait"
               width="192"
               height="192"
