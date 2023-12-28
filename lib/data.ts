@@ -13,6 +13,7 @@ import {
   FaNode,
   FaDraftingCompass,
   FaFreeCodeCamp,
+  FaPhp,
 } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -22,13 +23,17 @@ import {
   SiMysql,
   SiNextdotjs,
   SiPostgresql,
+  SiSequelize,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import betterSellerImg from "@/public/better-seller.png";
+import mrcImg from "@/public/mrc.png";
+import hrdSystemImg from "@/public/hrd-system.png";
+import pmsImg from "@/public/pms.png";
+import hrdDocImg from "@/public/hrd-docs.png";
+import internalWebMailImg from "@/public/internal-web-mail.png";
 
 export const links = [
   {
@@ -89,25 +94,56 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Better-seller",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Amazon Seller Central Business Management Software. Profit, Cost, and Performance Analytic. Inventory Management and Forecasting",
+    tags: ["PostgreSQL", "Express", "React", "Node", "Docker", "AWS"],
+    imageUrl: betterSellerImg,
   },
   {
-    title: "rmtDev",
+    title: "Massage Remedial Care LLC",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus lorem vitae blandit dignissim. Sed eget faucibus lacus.",
+    // "A public web app that show available services and pricing. Side Project. ",
+    tags: ["React", "Tailwind", "Redux"],
+    imageUrl: mrcImg,
   },
   {
-    title: "Word Analytics",
+    title: "HRD Documentation",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus lorem vitae blandit dignissim. Sed eget faucibus lacus.",
+    tags: [
+      "DynamoDB",
+      "S3",
+      "API Gateway",
+      "Lambda",
+      "Vue",
+      "Vuetify",
+      "Node",
+      "Express",
+    ],
+    imageUrl: hrdDocImg,
+  },
+  {
+    title: "HRD System",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus lorem vitae blandit dignissim. Sed eget faucibus lacus.",
+    tags: ["Vue", "Vuetify", "CouchDB", "Node", "Express"],
+    imageUrl: hrdSystemImg,
+  },
+  {
+    title: "HRD Production Control",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus lorem vitae blandit dignissim. Sed eget faucibus lacus.",
+    tags: ["Vue", "Vuetify", "CouchDB", "MySQL", "Node", "Express"],
+    imageUrl: pmsImg,
+  },
+  {
+    title: "HRD Internal Web Mail",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus lorem vitae blandit dignissim. Sed eget faucibus lacus.",
+    tags: ["Vue", "Vuetify", "CouchDB", "Node", "Express"],
+    imageUrl: internalWebMailImg,
   },
 ] as const;
 
@@ -134,6 +170,11 @@ export const skillsData = [
     iconColor: "#42b883",
   },
   { text: "React", icon: React.createElement(FaReact), iconColor: "#61DBFB" },
+  {
+    text: "PHP",
+    icon: React.createElement(FaPhp),
+    iconColor: "#777BB3",
+  },
   {
     text: "Node",
     icon: React.createElement(FaNode),
@@ -170,6 +211,11 @@ export const skillsData = [
     iconColor: "#336791",
   },
   {
+    text: "Sequelize",
+    icon: React.createElement(SiSequelize),
+    iconColor: "#2379BD",
+  },
+  {
     text: "CouchDB",
     icon: React.createElement(FaCouch),
     iconColor: "#e52023",
@@ -188,10 +234,5 @@ export const skillsData = [
     text: "Docker",
     icon: React.createElement(FaDocker),
     iconColor: "#2396ed",
-  },
-  {
-    text: "Framer Motion",
-    icon: React.createElement(TbBrandFramerMotion),
-    iconColor: "#eb00a7",
   },
 ] as const;
