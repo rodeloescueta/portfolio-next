@@ -1,7 +1,29 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import {
+  FaReact,
+  FaHtml5,
+  FaCss3,
+  FaNodeJs,
+  FaGitAlt,
+  FaVuejs,
+  FaAws,
+  FaCouch,
+  FaDocker,
+  FaNode,
+} from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { IoLogoJavascript } from "react-icons/io5";
+import {
+  SiAmazondynamodb,
+  SiExpress,
+  SiMysql,
+  SiNextdotjs,
+  SiPostgresql,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
+import { TbBrandFramerMotion } from "react-icons/tb";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -85,23 +107,86 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  { text: "HTML", icon: React.createElement(FaHtml5), iconColor: "#e34c26" },
+  {
+    text: "CSS",
+    icon: React.createElement(FaCss3),
+    iconColor: "#2962ff",
+  },
+  {
+    text: "Tailwind",
+    icon: React.createElement(SiTailwindcss),
+    iconColor: "#78cac3",
+  },
+  {
+    text: "JavaScript",
+    icon: React.createElement(IoLogoJavascript),
+    iconColor: "#f0db4f",
+  },
+  {
+    text: "Vue",
+    icon: React.createElement(FaVuejs),
+    iconColor: "#42b883",
+  },
+  { text: "React", icon: React.createElement(FaReact), iconColor: "#61DBFB" },
+  {
+    text: "Node",
+    icon: React.createElement(FaNode),
+    iconColor: "#3c873a",
+  },
+  {
+    text: "Express",
+    icon: React.createElement(SiExpress),
+    iconColor: "#4d4f53",
+  },
+  {
+    text: "TypeScript",
+    icon: React.createElement(SiTypescript),
+    iconColor: "#007acc",
+  },
+  {
+    text: "Next",
+    icon: React.createElement(SiNextdotjs),
+    iconColor: "#000000",
+  },
+  {
+    text: "Git",
+    icon: React.createElement(FaGitAlt),
+    iconColor: "#f34f29",
+  },
+  {
+    text: "PostgreSQL",
+    icon: React.createElement(SiPostgresql),
+    iconColor: "#336791",
+  },
+  {
+    text: "MySQL",
+    icon: React.createElement(SiMysql),
+    iconColor: "#336791",
+  },
+  {
+    text: "CouchDB",
+    icon: React.createElement(FaCouch),
+    iconColor: "#e52023",
+  },
+  {
+    text: "DynamoDB",
+    icon: React.createElement(SiAmazondynamodb),
+    iconColor: "#1a476f",
+  },
+  {
+    text: "AWS",
+    icon: React.createElement(FaAws),
+    iconColor: "#ff9900",
+  },
+  {
+    text: "Docker",
+    icon: React.createElement(FaDocker),
+    iconColor: "#2396ed",
+  },
+  {
+    text: "Framer Motion",
+    icon: React.createElement(TbBrandFramerMotion),
+    iconColor: "#eb00a7",
+  },
 ] as const;

@@ -8,14 +8,13 @@ import { motion } from "framer-motion";
 
 const fadeInAnimationVariants = {
   initial: {
-    opacity: 0,
-    y: 100,
+    scale: 0,
   },
   animate: (index: number) => ({
-    opacity: 1,
-    y: 0,
+    rotate: 360,
+    scale: 1,
     transition: {
-      delay: 0.05 * index,
+      delay: 0.15 * index,
     },
   }),
 };
@@ -30,10 +29,10 @@ export default function Skills() {
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>My skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex flex-wrap justify-center gap-2 text-sm text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className="px-5 py-3  dark:text-white/80"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
@@ -43,7 +42,15 @@ export default function Skills() {
             }}
             custom={index}
           >
-            {skill}
+            <div className="flex flex-col items-center justify-center">
+              <div
+                style={{ fontSize: "50px", color: skill.iconColor }}
+                className="px-5"
+              >
+                {skill.icon}
+              </div>
+              <span className="pt-3 text-connect">{skill.text}</span>
+            </div>
           </motion.li>
         ))}
       </ul>
