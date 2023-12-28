@@ -11,6 +11,8 @@ import {
   FaCouch,
   FaDocker,
   FaNode,
+  FaDraftingCompass,
+  FaFreeCodeCamp,
 } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -57,28 +59,35 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Sr. Full-Stack Developer",
+    location: "HRD, Philippines",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2021 - Present",
+  },
+  {
+    title: "Full-Stack Team Lead",
+    location: "HRD, Philippines",
+    description:
+      "Promoted to a Full-Stack Team Lead position internally. Stack includes Php, Node, Express, Vue, CouchDB, DynamoDB, MySQL.",
+    icon: React.createElement(FaVuejs),
+    date: "2017 - 2021",
+  },
+  {
+    title: "Self-Taught Developer",
+    location: "HRD, Philippines",
+    description:
+      "Wanted to do more so taught myself html, css, javascript and some PHP initially",
+    icon: React.createElement(FaFreeCodeCamp),
+    date: "2015 - 2017",
+  },
+  {
+    title: "AutoCAD",
+    location: "HRD, Philippines",
+    description: "Started working as AutoCAD designer and labor cost estimator",
+    icon: React.createElement(FaDraftingCompass),
+    date: "2010-2017",
   },
 ] as const;
 
