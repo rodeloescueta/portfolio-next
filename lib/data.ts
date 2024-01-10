@@ -61,23 +61,23 @@ export const links = [
 export const experiencesData = [
   {
     title: "Sr. Full-Stack Developer",
-    location: "HRD, Philippines",
+    location: "Outgive, Canada",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Responsible for planning and developing software solutions, review PR, supporting and maintaining the company's websites and digital products",
     icon: React.createElement(FaReact),
     date: "2021 - Present",
   },
   {
     title: "Full-Stack Team Lead",
-    location: "HRD, Philippines",
+    location: "HRD, Philippines (Japan Company)",
     description:
-      "Promoted to a Full-Stack Team Lead position internally. Stack includes Php, Node, Express, Vue, CouchDB, DynamoDB, MySQL.",
+      "Promoted to a Full-Stack Team Lead position internally. Led the team in designing and building multiple project",
     icon: React.createElement(FaVuejs),
     date: "2017 - 2021",
   },
   {
     title: "Self-Taught Developer",
-    location: "HRD, Philippines",
+    location: "HRD, Philippines  (Japan Company)",
     description:
       "Wanted to do more so taught myself html, css, javascript and some PHP initially",
     icon: React.createElement(FaFreeCodeCamp),
@@ -85,7 +85,7 @@ export const experiencesData = [
   },
   {
     title: "AutoCAD",
-    location: "HRD, Philippines",
+    location: "HRD, Philippines  (Japan Company)",
     description: "Started working as AutoCAD designer and labor cost estimator",
     icon: React.createElement(FaDraftingCompass),
     date: "2010-2017",
@@ -96,22 +96,29 @@ export const projectsData = [
   {
     title: "Better-seller",
     description:
-      "Amazon Seller Central Business Management Software. Profit, Cost, and Performance Analytic. Inventory Management and Forecasting",
+      "A robust in-house application tailored for agencies serving Amazon sellers.",
     tags: ["PostgreSQL", "Express", "React", "Node", "Docker", "AWS"],
     imageUrl: betterSellerImg,
   },
   {
     title: "Massage Remedial Care LLC",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus lorem vitae blandit dignissim. Sed eget faucibus lacus.",
-    // "A public web app that show available services and pricing. Side Project. ",
+      "A public web app that show available services and pricing. Side Project.",
     tags: ["React", "Tailwind", "Redux"],
     imageUrl: mrcImg,
   },
   {
     title: "HRD Documentation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus lorem vitae blandit dignissim. Sed eget faucibus lacus.",
+      "Systematized the procedure of requesting, approval, and stamping for ofﬁcial Documents (Procedure, Work Instructions, Process Flow) in HRD",
+    tags: ["Vue", "Vuetify", "CouchDB", "Node", "Express"],
+
+    imageUrl: hrdDocImg,
+  },
+  {
+    title: "HRD System",
+    description:
+      "HRD collection of systems that contain Access center for all applications used in HRD",
     tags: [
       "DynamoDB",
       "S3",
@@ -122,26 +129,18 @@ export const projectsData = [
       "Node",
       "Express",
     ],
-    imageUrl: hrdDocImg,
-  },
-  {
-    title: "HRD System",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus lorem vitae blandit dignissim. Sed eget faucibus lacus.",
-    tags: ["Vue", "Vuetify", "CouchDB", "Node", "Express"],
     imageUrl: hrdSystemImg,
   },
   {
     title: "HRD Production Control",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus lorem vitae blandit dignissim. Sed eget faucibus lacus.",
-    tags: ["Vue", "Vuetify", "CouchDB", "MySQL", "Node", "Express"],
+      "System to monitor the output in different department, the status of production, and scheduling of task.",
+    tags: ["Vue", "Vuetify", "CouchDB", "MySQL", "MSSQL", "Node", "Express"],
     imageUrl: pmsImg,
   },
   {
     title: "HRD Internal Web Mail",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus lorem vitae blandit dignissim. Sed eget faucibus lacus.",
+    description: "Replace email for internal usage inside HRD.",
     tags: ["Vue", "Vuetify", "CouchDB", "Node", "Express"],
     imageUrl: internalWebMailImg,
   },
