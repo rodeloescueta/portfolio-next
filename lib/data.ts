@@ -14,6 +14,7 @@ import {
   FaDraftingCompass,
   FaFreeCodeCamp,
   FaPhp,
+  FaJira,
 } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -23,6 +24,7 @@ import {
   SiMysql,
   SiNextdotjs,
   SiPostgresql,
+  SiPostman,
   SiSequelize,
   SiTailwindcss,
   SiTypescript,
@@ -200,6 +202,11 @@ export const skillsData = [
     iconColor: "#f34f29",
   },
   {
+    text: "Jira",
+    icon: React.createElement(FaJira),
+    iconColor: "#2684fe",
+  },
+  {
     text: "PostgreSQL",
     icon: React.createElement(SiPostgresql),
     iconColor: "#336791",
@@ -223,6 +230,11 @@ export const skillsData = [
     text: "DynamoDB",
     icon: React.createElement(SiAmazondynamodb),
     iconColor: "#1a476f",
+  },
+  {
+    text: "Postman",
+    icon: React.createElement(SiPostman),
+    iconColor: "#EF5B25",
   },
   {
     text: "AWS",
