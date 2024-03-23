@@ -65,7 +65,7 @@ export const experiencesData = [
     title: "Sr. Full-Stack Developer",
     location: "Outgive, Canada",
     description:
-      "Responsible for planning and developing software solutions, review PR, supporting and maintaining the company's websites and digital products",
+      "Integrate Rainforest API, Amazon SP API, and GMAIL to deliver comprehensive analytics on clients' sales and profits.",
     icon: React.createElement(FaReact),
     date: "2021 - Present",
   },
@@ -73,7 +73,7 @@ export const experiencesData = [
     title: "Full-Stack Team Lead",
     location: "HRD, Philippines (Japan Company)",
     description:
-      "Promoted to a Full-Stack Team Lead position internally. Led the team in designing and building multiple project",
+      "Internally promoted to the position of Full-Stack Team Lead, where I spearheaded the design and development of multiple projects alongside my team.",
     icon: React.createElement(FaVuejs),
     date: "2017 - 2021",
   },
@@ -81,14 +81,15 @@ export const experiencesData = [
     title: "Self-Taught Developer",
     location: "HRD, Philippines  (Japan Company)",
     description:
-      "Wanted to do more so taught myself html, css, javascript and some PHP initially",
+      "Desiring to expand my skill set, I took the initiative to self-teach HTML, CSS, JavaScript, and initially some PHP.",
     icon: React.createElement(FaFreeCodeCamp),
     date: "2015 - 2017",
   },
   {
     title: "AutoCAD",
     location: "HRD, Philippines  (Japan Company)",
-    description: "Started working as AutoCAD designer and labor cost estimator",
+    description:
+      "Commenced my career as an AutoCAD designer and labor cost estimator.",
     icon: React.createElement(FaDraftingCompass),
     date: "2010-2017",
   },
@@ -97,13 +98,15 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Better-seller",
+    link: "https://agency.betterseller.com/",
     description:
-      "A robust in-house application tailored for agencies serving Amazon sellers.",
+      "Better Seller enhances Amazon selling through valuable insights and data-driven solutions to boost performance and profitability.",
     tags: ["PostgreSQL", "Express", "React", "Node", "Docker", "AWS"],
     imageUrl: betterSellerImg,
   },
   {
     title: "Massage Remedial Care LLC",
+    link: "https://massageremedialcarellc.com/",
     description:
       "A public web app that show available services and pricing. Side Project.",
     tags: ["React", "Tailwind", "Redux"],
@@ -111,6 +114,7 @@ export const projectsData = [
   },
   {
     title: "HRD Documentation",
+    link: "https://rulebook.hrd-s.com/",
     description:
       "Systematized the procedure of requesting, approval, and stamping for ofﬁcial Documents (Procedure, Work Instructions, Process Flow) in HRD",
     tags: ["Vue", "Vuetify", "CouchDB", "Node", "Express"],
@@ -119,6 +123,7 @@ export const projectsData = [
   },
   {
     title: "HRD System",
+    link: "https://system.hrd-s.com/",
     description:
       "HRD collection of systems that contain Access center for all applications used in HRD",
     tags: [
@@ -135,6 +140,7 @@ export const projectsData = [
   },
   {
     title: "HRD Production Control",
+    link: "https://pcms.hrd-s.com/",
     description:
       "System to monitor the output in different department, the status of production, and scheduling of task.",
     tags: ["Vue", "Vuetify", "CouchDB", "MySQL", "MSSQL", "Node", "Express"],
@@ -142,6 +148,7 @@ export const projectsData = [
   },
   {
     title: "HRD Internal Web Mail",
+    link: "https://webmail.hrd-s.com/",
     description: "Replace email for internal usage inside HRD.",
     tags: ["Vue", "Vuetify", "CouchDB", "Node", "Express"],
     imageUrl: internalWebMailImg,
