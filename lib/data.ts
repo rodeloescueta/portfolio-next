@@ -105,7 +105,7 @@ export const experiencesData = [
     location: "Remote",
     description:
       "Providing part-time freelance development services (20+ hours/week) alongside full-time role. Developed static websites for local businesses including Massage Remedial Care LLC and Naxos Café & Restaurant. Collaborated with startups to create specialized SEO tools and automation solutions to enhance their digital marketing capabilities.",
-    icon: React.createElement(FaLaptopCode),
+    icon: React.createElement(FaCode),
     date: "2022 - Present",
   },
   {
