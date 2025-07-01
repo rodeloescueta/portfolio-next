@@ -230,8 +230,6 @@ _2010 - 2017_
 ### Interests
 
 - **AI & Automation**: Passionate about leveraging AI for development efficiency
-- **Open Source**: Contributing to and utilizing open-source technologies
-- **Performance Optimization**: Focus on application performance and user experience
 - **Modern Web Standards**: Staying current with web development best practices
 
 ---
