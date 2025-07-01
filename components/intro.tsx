@@ -18,7 +18,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-28 max-w-[65rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -64,10 +64,14 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Rodelo.</span> I'm a self-taught{" "}
         <span className="font-bold">Software Developer</span> with over{" "}
-        <span className="font-bold">7 years</span> of Experience. I am dedicated
-        to perfecting my craft by learning from more seasoned developers,
-        remaining humble, and continuously making strides to learn all that I
-        can about development.
+        <span className="font-bold">10 years</span> of experience. I specialize
+        in <span className="font-bold">helping startups</span> automate internal
+        processes and <span className="font-bold">API integrations</span>.
+        Recently, I've been leveraging{" "}
+        <span className="font-bold">AI tools</span> like ChatGPT Pro and Cursor
+        to enhance my development workflow. I'm passionate about continuously
+        improving my skills, particularly in the fields of{" "}
+        <span className="font-bold">AI and automation</span>.
       </motion.h1>
 
       <motion.div
